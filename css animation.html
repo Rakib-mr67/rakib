@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ani{
+	width:100px;
+	height:100px;
+	background:red;
+	animation-name:rakib;
+	animation-duration:3s;
+	animation-iteration-count: infinite;
+	position: relative;
+}
+@keyframes rakib{
+	/*from{
+		background-color:green;
+	}
+	to{
+		background-color:yellow;
+	}*/
+	0% {background:black;
+		left:0;
+		top:0;}
+
+		25%{
+			background:yellow;
+			left:200px;
+			top:0;
+		}
+		50%{
+			background:green;
+			top:200px;
+			left:200px;
+
+		}
+		75%{
+			left:0;
+			top:200px;
+			background:orange;
+		}
+		100%{
+			background:blue;
+			top:0;
+			left:0;
+		}
+
+}
+</style>
+
+
+	<title>css animations</title>
+</head>
+<body>
+	<div class="ani">
+	</div>
+
+</body>
+</html>
